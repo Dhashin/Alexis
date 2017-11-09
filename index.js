@@ -1,5 +1,7 @@
 var Gpio = require('onoff').Gpio,
     led = new Gpio(17, 'out');
+	led2 = new Gpio(27, 'out');
+	led2.writeSync(1);
  
 var iv = setInterval(function(){
 	led.writeSync(led.readSync() === 0 ? 1 : 0)
