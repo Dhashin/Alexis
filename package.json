@@ -1,0 +1,21 @@
+{
+  "name": "Alexis",
+  "version": "0.0.0",
+  "description": "LED",
+  "main": "index.js",
+  "scripts": {
+    "test": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dhashin/Alexis.git"
+  },
+  "author": "Dhashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhashin/Alexis/issues"
+  },
+  "dependencies": {
+    "onoff": "^1.1.8"
+  }
+}
